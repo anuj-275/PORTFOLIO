@@ -1,0 +1,155 @@
+
+ /*Font Awesome Free Icon*/
+ @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+ /*Google fonts*/
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap');
+
+body{
+    
+    background-color: black;
+}
+.header{
+    
+}
+.container{
+    padding: 2px 2%;
+     
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+
+nav ul{
+    background-color: ;
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+nav ul li a{
+    
+  
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    animation: navmove 2s;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background:  #5fd534;
+    left: 0;
+    position: absolute;
+    bottom: -10px;
+    transition: 1s;
+
+}
+nav ul li a:hover{
+    /* transition: 0s; */
+    color:#ff004f ;
+}
+nav ul li a:hover::after{
+    width: 100%;
+   
+}
+
+
+hr{
+    height:4px;
+    border-width:0;
+    background-color:rgb(145, 26, 26);
+    animation: hrmove 2s ;	
+    
+       
+}
+@keyframes navmove {
+    from   { font-size: 0px; }
+    
+    to{ font-size:18px;}
+
+}
+@keyframes hrmove {
+    from   { width: 0px; }
+    
+    to{ width:100%;}
+}
+.bubble img{
+    width: 50px;
+    opacity: 0;
+    animation: bubble 7s linear infinite;
+}
+.bubble{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    position: absolute;
+    bottom:0px;
+    justify-content: space-around;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 0.5;
+    }
+    70%{
+        transform: translate3d(5);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.bubble img:nth-child(1){
+    width: 25px;
+    animation-delay: 2s;
+}
+.bubble img:nth-child(2){
+    animation-delay: 1s;
+}
+.bubble img:nth-child(3){
+    width: 25px;
+    animation-delay: 3s;
+}
+.bubble img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.bubble img:nth-child(5){
+    animation-delay: 3s;
+}
+.bubble img:nth-child(6){
+    width: 20px;
+    animation-delay: 6s;
+}
+.bubble img:nth-child(7){
+    animation-delay: 7s;
+    width: 35px;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+
