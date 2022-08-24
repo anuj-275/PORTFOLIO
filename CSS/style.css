@@ -104,7 +104,7 @@ hr{
     }
     50%{
         
-        opacity: 0.5;
+        opacity: 0.8;
     }
     70%{
         transform: translate3d(5);
@@ -139,6 +139,26 @@ hr{
 .bubble img:nth-child(7){
     animation-delay: 7s;
     width: 35px;
+}
+.bubble img:nth-child(8){
+    animation-delay: 5s;
+    width: 45 px;
+}
+.bubble img:nth-child(9){
+    animation-delay: 4s;
+    
+}
+.bubble img:nth-child(10){
+    animation-delay: 3s;
+    width: 20px;
+}
+.bubble img:nth-child(11){
+    animation-delay: 7s;
+    width: 35px;
+}
+.bubble img:nth-child(12){
+    animation-delay: 3s;
+    
 }
 
 
