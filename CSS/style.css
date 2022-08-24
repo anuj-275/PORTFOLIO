@@ -179,6 +179,7 @@ button{
     left:8%;
 }
 .header-text h1{
+<<<<<<< HEAD
     color: #050eb4;
     font-size: 45px;
 }
@@ -192,6 +193,12 @@ button{
 }
 .header-text h2 span:hover{
     font-size: 60px;
+=======
+    font-size: 45px;
+}
+.header-text h2{
+    font-size: 55px;
+>>>>>>> a9622a94e7439d6d6632f39a96bee4456782a661
 }
 
 
